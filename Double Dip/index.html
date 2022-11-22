@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,43 +8,52 @@
     <link rel="stylesheet" href="./style.css">
     <title>Double Dip</title>
 </head>
+
 <body>
     <navbar>
-        <img src="./assets/logo_doubleDip.png">
-        <input type="text" placeholder="Procure seu sorvete">
+        <img src="./assets/logo_doubleDip.png" class="logo_navbar">
+        <div class="containerInput">
+            <img src="./assets/magnifyingGlass.png">
+            <input type="text" placeholder="Procure seu sorvete">
+        </div>
     </navbar>
-    <section>
-        <div>
-            <div>
+    <section class="container_conteudo">
+        <div class="grid_container">
+            <div class="grid_item1">
                 <img src="./assets/pop11.png">
-                <h2>Picolé Tablito</h2>
-                <p>Picolé de chocolate tradicional  e branco 106g (R$ 0,05/g)</p>
+                <div>
+                    <h2>Picolé Tablito</h2>
+                    <p>Picolé de chocolate tradicional e <br> branco 106g (R$ 0,05/g)</p>
+                </div>
                 <span>R$ 5,00</span>
             </div>
-            <div><img src="./assets/pop12.png"></div>
-            <div><img src="./assets/pop13.png"></div>
+            <div class="grid_item2"><img src="./assets/pop12.png"></div>
+            <div class="grid_item3"><img src="./assets/pop13.png"></div>
         </div>
-        <div>
-            <div>
+        <div class="grid_container grid_container_reverse">
+            <div class="grid_item1">
                 <img src="./assets/pop21.png">
-                <h2>Chica Bon</h2>
-                <p>Picolé de chocolate tradicional 53g (R$ 0,05/g)</p>
+                <div>
+                    <h2>Chica Bon</h2>
+                    <p>Picolé de chocolate tradicional <br> 53g (R$ 0,05/g)</p>
+                </div>
                 <span>R$ 3,50</span>
             </div>
-            <div><img src="./assets/pop22.png"></div>
-            <div><img src="./assets/pop23.png"></div>
+            <div class="grid_item2"><img src="./assets/pop22.png"></div>
+            <div class="grid_item3"><img src="./assets/pop23.png"></div>
         </div>
     </section>
     <footer>
-        <div>
+        <div class="container_rede_social">
             <img src="./assets/Linkedin.png">
             <img src="./assets/facebook.png">
             <img src="./assets/Twitter.png">
         </div>
-        <img src="./assets/logo_doubleDip.png">
+        <img src="./assets/logo_doubleDip.png" class="logo_footer">
         <p>
-            Made with  	&lt;/&gt; and  	&lt;3 by weslley
+            Made with &lt;/&gt; and &lt;3 by weslley Batista
         </p>
     </footer>
 </body>
+
 </html>
